@@ -1,0 +1,102 @@
+/* RESERT CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border: 1px solid;
+    align-items: center;
+    
+}
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: navy;
+    margin:0 15px;
+}
+.nav-links > a{
+    text-decoration: none;
+    font-size:20px ;
+    color: #000;
+    margin:0 15px;
+    
+
+}
+.fa-bars{
+    display: none;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.mobile-menu {
+    background-color: rgba(red, green, blue, alpha);
+    display: none;
+    
+}
+.mobile-menu > a {
+    text-decoration: none;
+    color: navy;
+    display: block;
+    padding: 15px 30px;
+
+}
+.login-form {
+    width:400px ;
+    border: 1px solid;
+    padding: ; 
+    background-color: white;
+}
+.login-form > input {
+    display: block;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    margin: 15px;
+}
+.login-form > ::placeholder {
+    padding-left: 20px;
+    font-size: 18px;
+    color: red;
+}
+.btn-login {
+    width: 139px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: yellow;
+}
+#overlay {
+    height: 100vh;
+    width: 100vh;
+    
+}
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+    .mobile-menu {
+        width: 100%;
+        position: absolute;
+        display: none;
+
+    }
+    .show-menu {
+        display: block;
+    }
+}
+    
+
+
